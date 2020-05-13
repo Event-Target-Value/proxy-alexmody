@@ -1,0 +1,7 @@
+TODO FILE
+
+1. Render my component via proxy
+2. Render one more component and resolve conflicts
+3. Render third component and resolve conflicts
+4. If further conflicts arise between 1 and 3, isolate 1 and 3 resolve conflicts
+5. Re-integrate 2 into proxy once 1 and 3 are resolved
