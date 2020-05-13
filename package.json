@@ -1,0 +1,38 @@
+{
+  "name": "proxy-alexmody",
+  "version": "1.0.0",
+  "description": "Proxy server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Event-Target-Value/proxy-alexmody.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Event-Target-Value/proxy-alexmody/issues"
+  },
+  "homepage": "https://github.com/Event-Target-Value/proxy-alexmody#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-proxy": "^1.18.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4"
+  }
+}

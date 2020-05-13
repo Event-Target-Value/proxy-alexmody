@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/style.css">
+    <title>FEC Group 11</title>
+  </head>
+  <body>
+    <div id="pictureCarousel"></div>
+    <div id="shipping"></div>
+    <div id="reviews"></div>
+    <script src="/lib/react.development.js"></script>
+    <script src="/lib/react-dom.development.js"></script>
+    <script src="http://localhost:3000/bundle.js"></script>
+    <script src="http://localhost:9000/bundle.js"></script>
+    <script src="http://localhost:1128/bundle.js"></script>
+    <!-- see: https://reactjs.org/docs/react-without-jsx.html -->
+    <script>
+      ReactDOM.render(
+        React.createElement(pictureCarousel),
+        document.getElementById('pictureCarousel')
+      );
+      ReactDOM.render(
+        React.createElement(shipping),
+        document.getElementById('shipping')
+      );
+      ReactDOM.render(
+        React.createElement(reviews),
+        document.getElementById('reviews')
+      );
+    </script>
+  </body>
+</html>
